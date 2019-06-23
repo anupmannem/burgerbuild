@@ -12,3 +12,4 @@ setup burger ingredients (BurgerIngredient.js) and burger (Burger.js) components
 setup state in BurgerBuilder.js and pass ingredients as props to burger
 render burger with ingredients dynamically
 setup controls for user to add/remove ingredients (BuildControls.js, BuildControl.js)
+display the price
