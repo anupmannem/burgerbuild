@@ -1,3 +1,12 @@
-enable css modules
-  - eject project
-  - 
+setup components and containers dirs
+setup an HOC for wrapping components (Aux.js) and a layout component (Layout.js)
+setup burger builder (BurgerBuilder.js) component
+  - setup to use css modules in webpack
+    1. npm run eject
+    2. add following options to getStyleLoaders() in webpack.config.js
+      importLoaders: 2,
+      modules: true,
+      localIdentName: "[name]__[local]___[hash:base64:5]"
+    3. npm run start
+setup burger ingredients (BurgerIngredient.js) and burger (Burger.js) components
+setup state in BurgerBuilder.js
