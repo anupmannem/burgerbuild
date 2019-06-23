@@ -11,6 +11,5 @@ setup burger builder (BurgerBuilder.js) component
 setup burger ingredients (BurgerIngredient.js) and burger (Burger.js) components
 setup state in BurgerBuilder.js and pass ingredients as props to burger
 render burger with ingredients dynamically
-setup controls for user to add/remove ingredients (BuildControls.js, BuildControl.js)
-display the price
-add model (Modal.js), backdrop (Backdrop.js) and ordersummary (OrderSummary.js)
+setup controls for user to add/remove ingredients (BuildControls.js, BuildControl.js), display the price
+add modal (Modal.js), backdrop (Backdrop.js) and ordersummary (OrderSummary.js), continue, cancel buttons on modal (Button.js)
